@@ -355,13 +355,15 @@ NFT Staked!
 console.log
 Your transaction signature 5NVwRmykfUjoiQ8Yhk3YqsGYJDH52LZbdBDvADhkJ4C5V7xFm5u5J9md5UjkmtSbrrHxGdgQEZr3JZty7gRfAUjx
 
+console.log
+NFT Staked!
+Your transaction signature p4AnVfvFcAEAEY7qBErmdpAg9Wy8iEKiD7DJzs19iNhZ3Z2RTu1Dtjfg8yVo7ZdBeY817DkepxezNkDUKw9tvBH
+user points:  0
+user amount staked:  1
+
 console.log    
 NFT unstaked!
-
-console.log
 Your transaction signature 2eNZJ3aCH71j3RaTGLAMwQwm4S8Zem6xC6uCfTzLQQ9FrrQXswSY7Jmj4KABc2VUqotmAL3CVpBWamsyathDxhu7
-
-console.log
 user points:  0
 
 console.log

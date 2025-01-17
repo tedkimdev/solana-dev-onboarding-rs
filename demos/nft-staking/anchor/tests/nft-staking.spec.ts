@@ -127,6 +127,10 @@ describe('nft-staking', () => {
 
     console.log("\nNFT Staked!");
     console.log("Your transaction signature", tx);
+
+    let account = await program.account.userAccount.fetch(userAccount)
+    console.log("user points: ", account.points);
+    console.log("user amount staked: ", account.amountStaked);
   });
 
   it("Unstake NFT", async() => {
@@ -151,6 +155,7 @@ describe('nft-staking', () => {
 
     let account = await program.account.userAccount.fetch(userAccount)
     console.log("user points: ", account.points);
+    console.log("user amount staked: ", account.amountStaked);
   });
 
   it("Claim Rewards", async() => {
@@ -174,5 +179,6 @@ describe('nft-staking', () => {
 
     let account = await program.account.userAccount.fetch(userAccount);
     console.log("User points: ", account.points);
+    console.log("user amount staked: ", account.amountStaked);
   });
 })
