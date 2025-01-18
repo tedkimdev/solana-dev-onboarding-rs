@@ -4,3 +4,6 @@
 *.rs       text diff=rust
 *.toml     text diff=toml
 Cargo.lock text
+
+demos/** linguist-documentation=false
+demos/** linguist-vendored
