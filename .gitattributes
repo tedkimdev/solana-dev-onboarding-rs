@@ -6,4 +6,4 @@
 Cargo.lock text
 
 demos/** linguist-documentation=false
-demos/** linguist-vendored
+demos/** linguist-vendored=false
