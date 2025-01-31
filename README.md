@@ -23,4 +23,4 @@
 
 <br>
 
-* **[Demo : Anchor Escrow(Rust)](demos/anchor-escorw)**
+* **[Demo : Anchor Escrow(Rust)](demos/anchor-escrow)**
