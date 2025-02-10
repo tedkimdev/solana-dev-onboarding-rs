@@ -37,6 +37,10 @@ let xSafe: u64 = y.checked_add(z).unwrap(); // will panic if overflow happens
 
 * By default, a transaction is limited to 200,000 compute units. If more than 200,000 compute units are consumed, the transaction reverts.
 
+<br>
+
+----
+
 ### IDL(Interface Definition Language)
 
 * The IDL provides a standardized JSON file describing the Solana program's instructions and accounts.
@@ -44,6 +48,10 @@ let xSafe: u64 = y.checked_add(z).unwrap(); // will panic if overflow happens
 * An IDL file in Solana plays a similar role as the ABI file in Solidity, specifying how to interact with the program’s/contract’s.
 
 * Functions in Rust are snake_cased, but Anchor formats them in JavaScript land as camelCased.
+
+<br>
+
+----
 
 ### Function Visibility
 
