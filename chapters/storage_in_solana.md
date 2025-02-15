@@ -8,9 +8,9 @@
 
 
 * The Anchor Rent Module gives us some constants related to rent:
-  * ACCOUNT_STORAGE_OVERHEAD: this constant has a value of 128 (bytes) and as the name suggests, an empty account has 128 bytes of overhead.
-  * DEFAULT_EXEMPTION_THRESHOLD: this constant has a value of 2.0 (float 64) and refers to the fact that paying two years of rent in advance makes the account exempt from paying further rent.
-  * DEFAULT_LAMPORTS_PER_BYTE_YEAR: this constant has a value of 3,480 meaning each byte requires 3,480 lamports per year. Since we are required to pay two years worth, each byte will cost us 6,960 lamports.
+  * `ACCOUNT_STORAGE_OVERHEAD`: this constant has a value of 128 (bytes) and as the name suggests, an empty account has 128 bytes of overhead.
+  * `DEFAULT_EXEMPTION_THRESHOLD`: this constant has a value of 2.0 (float 64) and refers to the fact that paying two years of rent in advance makes the account exempt from paying further rent.
+  * `DEFAULT_LAMPORTS_PER_BYTE_YEAR`: this constant has a value of 3,480 meaning each byte requires 3,480 lamports per year. Since we are required to pay two years worth, each byte will cost us 6,960 lamports.
 
 * Solana has a permanent inflation model that will eventually converge to 1.5% per year, so this should help reflect the fact that storage gets cheaper over time per Moore’s Law, which states that transistor density for the same cost doubles every 18 months.
 

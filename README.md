@@ -20,6 +20,7 @@
 * **[security](chapters/security.md)**
 * **[rust in solana](chapters/rust_in_solana.md)**
 * **[accounts](chapters/accounts.md)**
+* **[storage in solana](chapters/storage_in_solana.md)**
 
 <br>
 
