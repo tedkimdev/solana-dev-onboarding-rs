@@ -27,10 +27,22 @@
 
 <br>
 
-* **[Demo: Writing to Storage(Rust)](demos/basic_write_storage)**
+* **[Example: Writing to Storage(Rust)](demos/basic_write_storage)**
+
+* **[Example: Sol Splitter(Rust)](demos/sol_splitter)**
 
 * **[Demo: NFT Staking(Rust)](demos/nft-staking)**
 
 * **[Demo: Anchor Vault(Rust)](demos/anchor-vault)**
 
 * **[Demo: Anchor Escrow(Rust)](demos/anchor-escrow)**
+
+
+<br>
+
+### Useful Links
+
+<br>
+
+* https://www.web3gb.com/
+

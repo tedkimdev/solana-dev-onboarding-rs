@@ -17,6 +17,9 @@ describe("basic_write_storage", () => {
       signer: program.provider.publicKey,
     }).rpc();
     console.log("Your transaction signature", tx);
+
+    let myStorageStruct = await program.account.myStorage.fetch(myStorage);
+    console.log("The value of x is:", myStorageStruct.x.toString());
   });
 
   it("set!", async () => {
