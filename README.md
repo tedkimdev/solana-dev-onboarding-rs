@@ -45,5 +45,6 @@
 
 <br>
 
-* https://www.web3gb.com/
+* https://github.com/helius-labs/solana-awesome
+
 
